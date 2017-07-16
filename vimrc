@@ -6,9 +6,10 @@ filetype off                  " required
 " => Visual Appearance 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set line length marker
-set colorcolumn=80
+set colorcolumn=110
 " Set to show line numbers
 set number
+colo delek
 
 set hlsearch
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -49,6 +50,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'VimClojure'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'itmammoth/doorboy.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
