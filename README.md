@@ -13,9 +13,22 @@ Change each 'foo' to 'bar', but ask for confirmation first
 `:%s/foo/bar/gc`
 
 ## Git
+Add small chunks of change 
+
+`git add -p`
+
+Discard all local changes in your working tree
+
+`git reset --hard HEAD`
+
 Undo last commit but keep the changes
 
 `git reset HEAD~`
+
+Show changes over time for a file
+
+`git log -p <file>`
+
 
 ## Terminal
 Remove a full directory that contains other directories/files, without prompts
