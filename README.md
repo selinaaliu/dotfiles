@@ -29,6 +29,17 @@ Show changes over time for a file
 
 `git log -p <file>`
 
+Create a new branch with name
+
+`git checkout -b branch-name`
+
+Rename current branch to new name
+
+`git branch -m new-branch-name`
+
+Delete branch
+
+`git branch -d my-branch`
 
 ## Terminal
 Remove a full directory that contains other directories/files, without prompts
