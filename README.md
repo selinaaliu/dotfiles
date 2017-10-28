@@ -12,6 +12,10 @@ Change each 'foo' to 'bar', but ask for confirmation first
 
 `:%s/foo/bar/gc`
 
+Open a second file with a vertical split
+
+`:vs filename`
+
 ## Git
 Add small chunks of change 
 
