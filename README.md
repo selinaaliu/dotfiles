@@ -33,6 +33,10 @@ Show changes over time for a file
 
 `git log -p <file>`
 
+To remove files in current working tree / directory that are not in repo:
+
+`git clean -f`
+
 Create a new branch with name
 
 `git checkout -b branch-name`
