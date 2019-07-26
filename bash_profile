@@ -39,6 +39,5 @@ alias gcm='git commit -m'
 alias gca='git commit --amend'
 alias gmas='git checkout master'
 alias drop='cd ~/Dropbox'
-alias eniac='ssh liu15@eniac.seas.upenn.edu'
 alias grun=cppCompileRun
 alias jrun=javaCompileRun
